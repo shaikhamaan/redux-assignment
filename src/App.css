@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.counter,
+.loginStatus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+  justify-items: space-between;
+}
+
+.counter  button {
+  width: 100px;
+  font-size: 30px;
+}
+
+.loginStatus  button {
+    width: 100px;
+    font-size: 20px;
+  }
